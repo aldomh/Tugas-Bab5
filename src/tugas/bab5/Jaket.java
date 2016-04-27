@@ -8,6 +8,19 @@ public class Jaket {
     public int jumlah[];
     public int total;
     
+    public void hargaJaket(){
+        System.out.println("Daftar Harga Jaket");
+        System.out.println("Nama\t Harga Satuan");
+        for (int i = 0; i < 3; i++) {
+            System.out.println(jaket[i] + "\t Rp " + hargaJaket[i]);
+        }
+        System.out.println("Pesan lebih dari 100 dapat diskon");
+        System.out.println("Jaket A : Rp  95.000/biji");
+        System.out.println("Jaket B : Rp 120.000/biji");
+        System.out.println("Jaket C : Rp 160.000/biji");
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+    }    
+    
     public void pesanJaket(int a[]) {
         jumlah = a;
         total = 0;
