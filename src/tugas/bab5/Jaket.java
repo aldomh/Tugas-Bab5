@@ -33,4 +33,15 @@ public class Jaket {
             total += harga[i];
         }
     }
+    
+    public void showHarga() {
+        System.out.println("~~~~~~~~~~~~CV.Labkomdas~~~~~~~~~~");
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+        System.out.println("Nama      Jumlah      Harga");
+        for (int i = 0; i < 3; i++) {
+            System.out.println(jaket[i] + "      " + jumlah[i] + "        Rp" + harga[i]);
+        }
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+        System.out.println("Total Harga :         Rp" + total);
+    }
 }
