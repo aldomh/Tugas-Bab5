@@ -35,5 +35,11 @@ public class MainHitung {
         int b4 = in.nextInt();
         hitung.pembagian(a4, b4);
         
+        System.out.println("\nPenyederhanaan");
+        System.out.print("Masukkan nilai 1 : ");
+        int a5 = in.nextInt();
+        System.out.print("Masukkan nilai 2 : ");
+        int b5 = in.nextInt();
+        hitung.penyederhanaan(a5, b5);
     }
 }
